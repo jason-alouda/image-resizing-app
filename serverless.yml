@@ -1,0 +1,15 @@
+name: resizing-app
+author: Jason Ah Chuen
+org: jason-tencent
+description: Create a COS bucket. Uploading images to the COS (Cloud Object Storage)
+            bucket compresses and resizes the images into thumbnails, which are
+            then stored in another existing COS bucket.
+keywords: tencent, serverless, SCF, COS
+license: MIT
+repo:
+readme: 
+src:
+  src: ./
+  exclude:
+    - .env
+    - serverless.yml
